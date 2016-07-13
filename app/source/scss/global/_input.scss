@@ -1,0 +1,17 @@
+.field {
+
+  input {
+    @extend .py-1;
+    @extend .px-1;
+    @extend .bb-7;
+    @extend .wp-100;
+    @extend .t-0;
+
+    outline: none;
+    font-family: $default-type-family;
+
+    &:focus {
+      @extend .bb-black;
+    }
+  }
+}

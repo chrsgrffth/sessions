@@ -1,0 +1,57 @@
+// Rem base.
+$rem-base: 18px;
+
+// Modular scale ration.
+$ratio: 1.2;
+
+// Grid settings.
+$container-width: 60rem;
+$columns: 12;
+
+// Breakpoints.
+$breakpoint-sm: '(min-width: 600px)'; // 600
+$breakpoint-md: '(min-width: 768px)'; // 768
+$breakpoint-lg: '(min-width: 1280px)'; // 1280
+$breakpoint-xl: '(min-width: 1440px)'; // 1440
+
+// Colors.
+$color-primary: #0bf;
+$color-secondary: #f00;
+$color-success: #60aa53;
+$color-error: #eb2e62;
+$color-warning: #e89414;
+
+// Greyscale.
+$black: #010101;
+$greys: #313233 #595a5c #646566 #87888a #bec0c2 #d7d8da #ececec #f2f4f5;
+$white: #fefefe;
+
+// Debug Settings.
+$debug-color-primary: rgba(255, 9, 206, 0.5);
+
+// Font weights.
+$fw-book: 300;
+$fw-medium: 400;
+$fw-semibold: 600;
+$fw-bold: 800;
+
+// Defaults.
+
+$spacing-increments: 0.6 1.6 2.6 4.2 6.8 11 18 29 46 75 !default;
+
+// Tyopgraphy.
+$default-type-family: 'Open Sans Condensed', sans-serif;
+$default-type-color: #313233;
+$default-line-height: 1.7;
+
+$iconic-font-path: 'fonts/iconic/';
+
+// Borders.
+$default-border-radius: 2px;
+$default-border-weight: 1px;
+$default-border-color: #e8e9eb;
+
+// Shadow
+// $default-box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.05);
+$default-box-shadow: 0 2px 8px -4px rgba(0, 0, 0, 0.035);
+
